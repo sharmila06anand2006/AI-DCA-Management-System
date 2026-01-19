@@ -25,49 +25,6 @@ Currently, this process relies on spreadsheets, emails, and manual follow-ups, r
 We propose an **AI-driven DCA Management Platform** that acts as a control tower for debt collection operations by combining automation, intelligence, and real-time monitoring.
 
 ---
-## 📁 Project Structure
-
-AI-DCA-Management-System-main/
-│
-├── README.md
-│
-├── recoveryiq-main/
-│   ├── .gitignore
-│
-│   ├── RecoveryIQ1/
-│   │   ├── package.json
-│   │   ├── package-lock.json
-│   │
-│   │   ├── recoveryiq/                     # Frontend (React + TypeScript)
-│   │   │   ├── .gitignore
-│   │   │   ├── index.html
-│   │   │   ├── App.tsx
-│   │   │   ├── constants.ts
-│   │   │   ├── types.ts
-│   │   │   ├── tsconfig.json
-│   │   │   ├── vite.config.ts
-│   │   │   ├── README.md
-│   │   │
-│   │   │   ├── components/
-│   │   │   │   ├── Header.tsx
-│   │   │   │   ├── Sidebar.tsx
-│   │   │
-│   │   │   ├── pages/
-│   │   │   │   ├── Login.tsx
-│   │   │   │   ├── Escalations.tsx
-│   │   │   │   ├── PerformanceAnalytics.tsx
-│   │   │   │   ├── Settings.tsx
-│   │   │   │   ├── WorkflowSLA.tsx
-│   │
-│   │   ├── recoveryiq-backend/              # Backend (Node.js)
-│   │   │   ├── server.js
-│   │   │   ├── db.json
-│   │   │
-│   │   │   ├── routes/
-│   │   │   │   ├── auth.routes.js
-│   │   │   │   ├── cases.routes.js
-│   │   │   │   ├── dashboard.routes.js
-
 
 ## 🔑 Key Features
 - AI-based case prioritization and recovery prediction  
@@ -121,3 +78,4 @@ This project is developed as part of an innovation-focused academic initiative, 
 
 ## 📜 License
 This project is for academic and demonstration purposes.
+
